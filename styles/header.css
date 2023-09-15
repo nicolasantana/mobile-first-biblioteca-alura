@@ -8,20 +8,25 @@ div-1{
 .cabeçalho{
     background: var(--branco );
     display: flex;
+    justify-content: space-between;
     align-items: center;
-
+    position: relative;
 }
 
 di-1{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 
 }
 h1{
     display:none;
 }
-@media screen and (min-width: 1024px){
- h1{
-    display: block;font-size: 30px; ;
- }   
+.Lista-menu{
+    display: block;
+    position: absolute;
+    top:100%;
+}
+lista-menu-titulo..lista-menu-item{
+    padding: 1em;
+    background-color: var(--branco);
 }
