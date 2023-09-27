@@ -1,11 +1,11 @@
 
 .cabeçalho_menu-hamburguer{
-        width: 70px;
-        height: 70px;
-        background-image: url(../imagens/Menu.svg.png);
-        display: inline-block;
-        background-repeat: no-repeat;
-        background-position: center;
+     width: 70px;
+     height: 70px;
+     background-image: url(../imagens/Menu.svg.png);
+     display: inline-block;
+     background-repeat: no-repeat;
+     background-position: center;
     }
     
     
@@ -19,63 +19,63 @@
     
     
     .div-1{
-        display: flex;
-        align-items: center;
+     display: flex;
+     align-items: center;
     }
     
     
     h1{
-        display: none;
+     display: none;
     }
     
     
     .lista-menu {
-        display: block;
-        position: absolute;
-        top: 100%;
+     display: block;
+     position: absolute;
+     top: 100%;
     }
     
     
     .lista-menu-titulo,.lista-menu-item{
-        padding: 1em;
-        background-color: var(--branco);
+       padding: 1em;
+       background-color: var(--branco);
     }
     
     
     .lista-menu-titulo{
-        color: var(--amarelo);
-        font-weight: 700;
+      color: var(--amarelo);
+      font-weight: 700;
     }
     
     
     .lista-menu-link{
-        background: var(--roxo);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-transform: uppercase;
+      background: var(--roxo);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-transform: uppercase;
     }
     
     
     .div-menu{
-        display: none;
+     display: none;
     }
     
     @media screen and (min-width:1024px) {
-        h1{
-        display: block;
-        font-size: 30px;
+     h1{
+     display: block;
+     font-size: 30px;
     }
     }
     
     
     .lista-menu{
-        display: none;
+     display: none;
     }
     
     
     .div-menu:checked ~.lista-menu{
-        display: block;
+     display: block;
     }
     
     
